@@ -10,7 +10,7 @@ please make suggestions and play the pack🙏
 ## Currently working on obtaining rights for the pack
 
 
-install: [modrinth](http://example.net/)
+install: [curseforge](https://legacy.curseforge.com/minecraft/modpacks/smc-scary-minecraft)
 
 <img src=https://cdn3.emoji.gg/emojis/6970-realisticskull.png>
 
