@@ -7,7 +7,7 @@ This reppo is used to give suggestions and get the install. <br>
 please make suggestions and play the pack🙏
 
 
-## Currently working on obtaining rights for the pack
+## Currently working on uploading to curseforge
 
 
 install: [curseforge](https://legacy.curseforge.com/minecraft/modpacks/smc-scary-minecraft)
