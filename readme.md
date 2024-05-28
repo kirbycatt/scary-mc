@@ -7,10 +7,12 @@ This reppo is used to give suggestions and get the install. <br>
 please make suggestions and play the pack🙏
 
 
-## Currently working on uploading to curseforge
+## ~~Currently working on uploading to curseforge~~ Refer to discussions for updates.
+### Changelog / updates coming soon
 
 
-install: [curseforge](https://legacy.curseforge.com/minecraft/modpacks/smc-scary-minecraft)
+
+install: [curseforge](https://curseforge.com/minecraft/modpacks/smc-scary-minecraft)
 
 <img src=https://cdn3.emoji.gg/emojis/6970-realisticskull.png>
 
