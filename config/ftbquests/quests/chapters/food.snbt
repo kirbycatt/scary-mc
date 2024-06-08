@@ -1,0 +1,339 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "food"
+	group: "4CB6FBC4A34684E8"
+	icon: "pamhc2foodextended:onionhamburgeritem"
+	id: "66C1FA7E2914F8DA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "pamhc2trees:cherry_sapling"
+			id: "7990383F44D98141"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "278321162FD7CA67"
+					table_id: 7374607077659684379L
+					type: "choice"
+				}
+				{
+					id: "2730346CA0F31FDA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Fruit Trees are an essential source of food, both early game AND throughout the playthrough, right click the dangling food if mature."
+			tasks: [{
+				id: "694C51427FC93E91"
+				title: "Find a Fruit Tree"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7990383F44D98141"]
+			icon: "pamhc2trees:papaya_sapling"
+			id: "283DF1A1934617FF"
+			rewards: [{
+				id: "35444063223B4FA4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Craft yourself a more portable fruit tree with 8 of the fruit and 1 sapling, and move some into your base."
+			tasks: [{
+				id: "18E46ECEE43AA893"
+				title: "Owns a Fruit Tree Sapling in Inventory"
+				type: "checkmark"
+			}]
+			title: "Get a more portable Sapling!"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "173C876BFA21F5D7"
+			rewards: [{
+				id: "1B0BAFF5C3E3A273"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "I hope you made a skybase or have easy access to snow, because you're gonna need it"
+			tasks: [{
+				id: "11A6A7BD1FBC7A93"
+				item: "minecraft:snowball"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"173C876BFA21F5D7"
+				"283DF1A1934617FF"
+			]
+			id: "2E243C62CD455B5A"
+			rewards: [{
+				id: "735EFCC1486D9AF4"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "combine 1 fruit, one of these (they take no durablity), and one snowball to get an OP food source."
+			tasks: [{
+				id: "0E9EB434DCD900C2"
+				item: "pamhc2foodcore:mixingbowlitem"
+				type: "item"
+			}]
+			title: "Le Mixing bowl"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2E243C62CD455B5A"]
+			description: ["The smoothies can only be produced with fruits, fruits basically are retextured apples, there are also trees for nuts, though, nuts can be differenciated with the difference of saturation and hunger and by the fact that they can be cooked."]
+			id: "0B9669D3DA226988"
+			rewards: [{
+				id: "365D1EDA39F86B06"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4EA4C3F9817F547A"
+				title: "Information!"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			id: "7A5580B5D9AD2337"
+			rewards: [{
+				id: "184B10D39E96368A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Dig a hole in the ground and make a temporary base, trust me when I say temporary"
+			tasks: [
+				{
+					count: 32L
+					id: "02C8495584E62F4A"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "4F5075680032261A"
+					title: "Made small underground Base"
+					type: "checkmark"
+				}
+			]
+			title: "We gotta start somewhere I guess..."
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7A5580B5D9AD2337"]
+			description: ["Add some slabs for a view outside, and so that you can hit mobs and they can't hit you. Also add fence gates as a secure entrance and exit."]
+			id: "687AAC347E85E938"
+			rewards: [{
+				id: "4795C7E1B56E67E8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "00AB08F51FDE0DC6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:wooden_slabs"
+						}
+					}
+					title: "Any #minecraft:wooden_slabs"
+					type: "item"
+				}
+				{
+					id: "766AC16DD673B55E"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:fence_gates/wooden"
+						}
+					}
+					title: "Any #forge:fence_gates/wooden"
+					type: "item"
+				}
+			]
+			title: "Okay, Okay now we're getting there!"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["687AAC347E85E938"]
+			icon: "quark:bottled_cloud"
+			id: "5960B84850CF699C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75E497C2E8569C45"
+					table_id: 7374607077659684379L
+					type: "choice"
+				}
+				{
+					id: "6C489DBEC5DFE513"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "PS: make sure it is wide and well lit!"
+			tasks: [{
+				id: "1C565877ABF832DC"
+				title: "Make a tall skybase away from the ground and all the evil on it!"
+				type: "checkmark"
+			}]
+			title: "Sky Base.. ASAP"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7A5580B5D9AD2337"]
+			description: ["Realistic Torches go out after some time, you will need to find out a light source that doesn't go out... good luck experimenting!"]
+			id: "3703B715310E081E"
+			rewards: [{
+				id: "3C1A27ABC3079311"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "779B73DB67A91A90"
+				item: "realistictorches:lit_torch"
+				type: "item"
+			}]
+			title: "Umm... we have a problem..?"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3703B715310E081E"]
+			description: [
+				"Yup! You got it! "
+				""
+				""
+				"atleast I think so, it worked for myself so far..."
+			]
+			icon: "minecraft:campfire"
+			id: "0C7D68945B983037"
+			invisible: true
+			rewards: [{
+				id: "152677F56C35A85D"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "4A76A5B29B64A2E7"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3703B715310E081E"]
+			id: "7CA7D6368C38B21B"
+			rewards: [
+				{
+					count: 5
+					id: "25BD1321C342B6FD"
+					item: "realistictorches:glowstone_crystal"
+					type: "item"
+				}
+				{
+					id: "13E1F0F1220160C9"
+					item: {
+						Count: 1b
+						id: "spartanweaponry:golden_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "This definitely works, but how will we get to the nether this early?"
+			tasks: [{
+				id: "6B035AE99796DA7C"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7A5580B5D9AD2337"]
+			id: "1F5533D1E2D3A30B"
+			rewards: [{
+				id: "1E53B61744A4D6C1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Okay so here is the issue, if your base isn't wide enough, the Slumbering Omen will summon spikes to kill you, and you won't be able to run!"
+			tasks: [{
+				id: "561C98DBDBB07A21"
+				title: "Make the base.. Wide..."
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1F5533D1E2D3A30B"]
+			id: "40D7BF877A994D5E"
+			rewards: [{
+				id: "7B21C9CB07CD178A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "The 'Torture' dweller will literally spawn near you EVEN IN YOUR BASE, make sure you have some 'airlocks' or a combination of walls and fence gates so that they cannot reach you. (Walls are atleast 2 tall, fence gates have walls 2 blocks above them.)"
+			tasks: [{
+				id: "1289CC52B00128EA"
+				title: "Add some 'Air Locks'"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3703B715310E081E"]
+			id: "1DEE1440B2D2D670"
+			rewards: [
+				{
+					id: "118863797471A6B2"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "323BA162B5BE16B5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "To relight torches, you will need this cheap matchbox, keep in mind it only has 64 uses"
+			tasks: [{
+				id: "3B9C177CC2400E0B"
+				item: {
+					Count: 1b
+					id: "realistictorches:matchbox"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+	]
+	title: "Food and Shelter"
+}

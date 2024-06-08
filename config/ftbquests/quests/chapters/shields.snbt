@@ -1,0 +1,253 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "shields"
+	group: "6B68C5CCDAD1DBE9"
+	icon: {
+		Count: 1b
+		id: "minecraft:shield"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "37CDBB04B04157A3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "363E4DE0559DA707"
+			rewards: [{
+				count: 5
+				id: "360A31F66631A3D2"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "59AA671172A02F5E"
+					item: {
+						Count: 1b
+						id: "medieval_craft_weapons:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A5064C94CC54E13"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["363E4DE0559DA707"]
+			id: "7B40E26574E52074"
+			rewards: [{
+				id: "7606048EC5601F72"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "49B1A6753ED4094F"
+				item: "medieval_craft_weapons:ironplate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7C13F1D1E927ABCB"
+				"7B40E26574E52074"
+			]
+			id: "4DF7FE38F5DF7CD2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25189ABF504D0B01"
+					table_id: 7374607077659684379L
+					type: "choice"
+				}
+				{
+					count: 3
+					id: "5CE88AE3C668AEA6"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "05BC4A8538352E84"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "084D6FE4D2B66B60"
+				item: {
+					Count: 1b
+					id: "medieval_craft_weapons:plate_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "7C13F1D1E927ABCB"
+			rewards: [
+				{
+					id: "01468030DF6F0989"
+					item: "pamhc2foodcore:sweetberryjuiceitem"
+					type: "item"
+				}
+				{
+					id: "18BA7B89D0EC48B4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1137BB66E81761F4"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "7EDA17350863E86D"
+			rewards: [{
+				count: 2
+				id: "1BA62F9EE7F92FB6"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "120A8179F31541B2"
+				item: "medieval_craft_weapons:chainmail"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7B40E26574E52074"
+				"7EDA17350863E86D"
+			]
+			id: "08369A3F17CF7B06"
+			rewards: [{
+				id: "02A9B92219D9DF58"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "525EE238A2AD0780"
+				item: {
+					Count: 1b
+					id: "medieval_craft_weapons:plate_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7B40E26574E52074"
+				"7EDA17350863E86D"
+			]
+			id: "7FAA95C4B7EDDE10"
+			rewards: [{
+				id: "214F906C9EBBB2EA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "30689FDF5455D3AA"
+				item: {
+					Count: 1b
+					id: "medieval_craft_weapons:plate_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7B40E26574E52074"
+				"7EDA17350863E86D"
+			]
+			id: "2830A697CF7493BC"
+			rewards: [{
+				id: "058330DA9D0EB19B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2CE49267877CB902"
+				item: {
+					Count: 1b
+					id: "medieval_craft_weapons:plate_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"08369A3F17CF7B06"
+				"4DF7FE38F5DF7CD2"
+				"7FAA95C4B7EDDE10"
+				"2830A697CF7493BC"
+			]
+			id: "4453B7FEEA900535"
+			rewards: [
+				{
+					count: 2
+					id: "6B13B721976620DB"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "45F6B9AE345A06F7"
+					item: "minecraft:iron_ore"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2FA77BB6FCDA6A0A"
+				title: "Done?"
+				type: "checkmark"
+			}]
+			title: "Full Set of Plated Armor!"
+			x: 2.0d
+			y: 4.5d
+		}
+	]
+	title: "Armour"
+}

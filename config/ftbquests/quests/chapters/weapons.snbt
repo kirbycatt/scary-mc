@@ -1,0 +1,683 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "weapons"
+	group: "6B68C5CCDAD1DBE9"
+	icon: {
+		Count: 1b
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "57D37FBC97447335"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1013A9E515753ED8"
+			rewards: [{
+				id: "70C3EED6DD32D39F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Simple, Easy, Just two of one material and one stick."
+			tasks: [{
+				id: "20C7E4001EE2406A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/swords"
+					}
+				}
+				title: "Any #forge:tools/swords"
+				type: "item"
+			}]
+			title: "The Vanilla Path"
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["11C7106F0B2DD12F"]
+			id: "2F73963EE4619AB0"
+			rewards: [{
+				id: "4E5AF5F49259D511"
+				item: {
+					Count: 1b
+					id: "spartanweaponry:iron_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59B41C662B7BE064"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:weapons"
+					}
+				}
+				title: "Any #forge:weapons"
+				type: "item"
+			}]
+			title: "The Spartan Weaponry Path"
+			x: 6.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2F73963EE4619AB0"]
+			id: "74ECC602F07EB448"
+			rewards: [
+				{
+					id: "12E15E2A9BD5DDB1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5B86B35C2C21F2E1"
+					item: {
+						Count: 1b
+						id: "spartanweaponry:weapon_oil"
+						tag: {
+							Oil: {
+								Effect: "spartanweaponry:wither_strong"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2562B3819D64E899"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "spartanweaponry:rapiers"
+					}
+				}
+				title: "Any #spartanweaponry:rapiers"
+				type: "item"
+			}]
+			title: "The Rapier"
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2F73963EE4619AB0"]
+			id: "3A2BF9564B84E3D3"
+			rewards: [
+				{
+					id: "5B58EC5992AEF72B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6A769F9056CA426F"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "584B3E0F9974ED09"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "spartanweaponry:longswords"
+					}
+				}
+				title: "Any #spartanweaponry:longswords"
+				type: "item"
+			}]
+			title: "The Longsword"
+			x: 8.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2F73963EE4619AB0"]
+			id: "6F13A60031A40615"
+			rewards: [
+				{
+					id: "557BC06CC63CE562"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6931AB3EED8A4DFA"
+					item: {
+						Count: 1b
+						id: "spartanweaponry:weapon_oil"
+						tag: {
+							Oil: {
+								Effect: "spartanweaponry:wither_strong"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59FD07E31149CF6D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "spartanweaponry:katanas"
+					}
+				}
+				title: "Any #spartanweaponry:katanas"
+				type: "item"
+			}]
+			title: "The Katana"
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2F73963EE4619AB0"]
+			id: "34A8D1078B61F5D2"
+			rewards: [
+				{
+					id: "2EC68940C8F73373"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "474A406583BD808D"
+					item: {
+						Count: 1b
+						id: "spartanweaponry:weapon_oil"
+						tag: {
+							Oil: {
+								Effect: "spartanweaponry:undead_strong"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71F01757E281FAE7"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "spartanweaponry:sabers"
+					}
+				}
+				title: "Any #spartanweaponry:sabers"
+				type: "item"
+			}]
+			title: "The Saber"
+			x: 8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2F73963EE4619AB0"]
+			id: "37B4DC279277B047"
+			rewards: [
+				{
+					id: "0AB510C264714408"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "51E8BE70D2C83798"
+					item: {
+						Count: 1b
+						id: "spartanweaponry:weapon_oil"
+						tag: {
+							Oil: {
+								Effect: "spartanweaponry:wither_strong"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "115663EAC48CF9A6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "spartanweaponry:battle_hammers"
+					}
+				}
+				title: "Any #spartanweaponry:battle_hammers"
+				type: "item"
+			}]
+			title: "The Battle Hammer"
+			x: 5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2F73963EE4619AB0"]
+			id: "58998CE50F9D22B1"
+			rewards: [
+				{
+					id: "7E180C4B049EB75C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7D8952A074BD3385"
+					item: {
+						Count: 1b
+						id: "spartanweaponry:weapon_oil"
+						tag: {
+							Oil: {
+								Effect: "spartanweaponry:wither_strong"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62AEFBF032DD14FC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "spartanweaponry:warhammers"
+					}
+				}
+				title: "Any #spartanweaponry:warhammers"
+				type: "item"
+			}]
+			title: "The War Hammer"
+			x: 4.5d
+			y: -9.5d
+		}
+		{
+			id: "1A9134302E04D29A"
+			rewards: [
+				{
+					count: 3
+					id: "4925C27434C612F8"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "56C44F7ECD9C2D84"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59CC140E9021C99E"
+					table_id: 7374607077659684379L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "02C47B11C0A705AF"
+					item: {
+						Count: 1b
+						id: "medieval_craft_weapons:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "683EFE54CBACFF86"
+					item: "medieval_craft_weapons:project_bench"
+					type: "item"
+				}
+			]
+			title: "The \"Medieval\" Path"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			id: "6D79D23EE7D2E216"
+			rewards: [
+				{
+					count: 2
+					id: "4D882AFC5B4B3661"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "4D3EFDD1C3B662CA"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+					id: "1AC3AE7EDFDFB59D"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					id: "58A596B8597B0670"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+				{
+					id: "766C305F3D12A6B8"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			id: "2C3B1A04167B1CB8"
+			rewards: [
+				{
+					id: "732C743E9767E98C"
+					item: {
+						Count: 1b
+						id: "spartanweaponry:iron_throwing_knife"
+						tag: {
+							AmmoUsed: 0
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "61DFADF0D2FD75A0"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "403DF49E53D33CE8"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"2C3B1A04167B1CB8"
+				"6D79D23EE7D2E216"
+				"1A9134302E04D29A"
+			]
+			id: "6F21E4A072F20B80"
+			rewards: [{
+				id: "7921A726E03229E5"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Note: some recipies may require more Iron!"
+			tasks: [{
+				id: "4772BAD89B758196"
+				title: "Put Iron into the Project Bench!"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6F21E4A072F20B80"]
+			id: "5EC6F26D86AE1972"
+			rewards: [
+				{
+					count: 3
+					id: "7EB4D3B92A6332EC"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "1AE9FFA8CCD00921"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Take out the product from the other side and put it into a blast furnace."
+			tasks: [{
+				id: "3EE38A631BB4657E"
+				title: "Step 2-3"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5EC6F26D86AE1972"]
+			id: "430429068CCE647D"
+			rewards: [{
+				id: "54781D6F0805AA37"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Take out the heated product from the blast furnace, then put it on an anvil and strike it with your Hammer!"
+			tasks: [{
+				id: "42585766A10BF4DC"
+				title: "Step 4-5"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["430429068CCE647D"]
+			id: "078228932AF6F88A"
+			rewards: [
+				{
+					id: "0982A2CE1BC800BB"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 2
+					id: "6744C947429AB6C7"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "515AC89E313BDB6B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			subtitle: "Put the Red hot piece into the cauldron (with water) then you combine it with other materials to make your sword!"
+			tasks: [{
+				id: "0D538D8A5AC9E624"
+				title: "The Final Touches!"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			id: "3CD632814820E51E"
+			rewards: [{
+				id: "44AFE70E1175145F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "You should try to experiment with the Different types of shields available to you at this time, the Crude shield is the cheaper option, useful if you are low on materials while the tower shield is the more standard."
+			tasks: [
+				{
+					id: "34F789BFCD7746DD"
+					item: {
+						Count: 1b
+						id: "spartanshields:wooden_tower_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "537B45F12580CC04"
+					item: {
+						Count: 1b
+						id: "spartanshields:wooden_basic_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Some Cheap Wooden Shields"
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3CD632814820E51E"]
+			id: "1D8451106217FC28"
+			rewards: [{
+				count: 2
+				id: "772660B156866374"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			subtitle: "What's Better than a reasonable wooden shield? A reasonable stone shield."
+			tasks: [{
+				id: "6FBD3ADE14714002"
+				item: {
+					Count: 1b
+					id: "spartanshields:stone_tower_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3CD632814820E51E"]
+			id: "054C717EAB4D0B14"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 2
+				id: "0D14B33FBCD8234A"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			subtitle: "What's Better than a cheap wooden shield? A cheap stone shield."
+			tasks: [{
+				id: "283CB7C32D4B84D8"
+				item: {
+					Count: 1b
+					id: "spartanshields:stone_basic_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			id: "1F2A4CF0FED408B1"
+			rewards: [{
+				id: "27E32B9EDDEBAD09"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "56608EBDCF6EF8FA"
+				title: "Understood."
+				type: "checkmark"
+			}]
+			title: "You Upgrade Wooden Shields to Get to the other tiers"
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"054C717EAB4D0B14"
+				"1D8451106217FC28"
+				"1F2A4CF0FED408B1"
+			]
+			id: "3E71C75B01AE3B17"
+			rewards: [{
+				count: 2
+				id: "15D0E99DF693431F"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "You get how it works, just replace the cobblestone with materials like iron, gold, diamond or obsidian and it should work just fine. If in doubt turn to Jei"
+			tasks: [{
+				id: "7461A804506796E4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "spartanshields:shields_with_bash"
+					}
+				}
+				title: "Any #spartanshields:shields_with_bash"
+				type: "item"
+			}]
+			title: "Any Shield Owned"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			id: "397535EA0563ABA0"
+			rewards: [
+				{
+					id: "6BBB68023DA82D17"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "270310C9B3B4D281"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A80902939FD6279"
+				item: {
+					Count: 1b
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Vanilla Classic Shield"
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			id: "11C7106F0B2DD12F"
+			rewards: [{
+				id: "44061E04236DB952"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3A2C16A6210CB5E1"
+				item: "spartanweaponry:handle"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.0d
+		}
+	]
+	title: "Swords and Melee Weapons"
+}
