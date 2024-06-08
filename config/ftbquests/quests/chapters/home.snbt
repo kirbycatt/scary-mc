@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "home"
+	group: ""
+	icon: "create:honeyed_apple"
+	id: "23525D505F2FAB0D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "7E401C51A4C52759"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "0E49A8EC31F4DD08"
+			table_id: 7374607077659684379L
+			type: "choice"
+		}]
+		shape: "heart"
+		subtitle: "This Questbook will be a Guide for you so that you may succeed in the early game."
+		tasks: [{
+			id: "6C624C25A5367529"
+			title: "Start your journey..."
+			type: "checkmark"
+		}]
+		title: "Welcome, and good luck."
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Home"
+}

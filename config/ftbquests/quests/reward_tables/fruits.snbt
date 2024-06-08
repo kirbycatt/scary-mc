@@ -1,0 +1,18 @@
+{
+	id: "6657DE1095FCAE1B"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "minecraft:apple" }
+		{ item: "pamhc2trees:figitem" }
+		{ item: "pamhc2trees:mangoitem" }
+		{ item: "pamhc2trees:breadfruititem" }
+		{ item: "pamhc2trees:bananaitem" }
+		{ item: "pamhc2trees:rambutanitem" }
+		{ item: "pamhc2trees:dateitem" }
+		{ item: "pamhc2trees:cherryitem" }
+		{ item: "pamhc2trees:plumitem" }
+		{ item: "pamhc2trees:lycheeitem" }
+	]
+	title: "Fruits"
+}

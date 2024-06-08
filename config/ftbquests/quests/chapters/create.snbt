@@ -1,0 +1,406 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "4CB6FBC4A34684E8"
+	icon: "create:cogwheel"
+	id: "4D2A24F5629705CE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "477E2B987BF4630A"
+			rewards: [{
+				id: "3819E495894D0FBF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "The handcrank is a portable source of rotational power, while the press allows you to make pressed iron and gold."
+			tasks: [
+				{
+					id: "20E1D4697838503E"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "01B053337CAE8A58"
+					item: "create:hand_crank"
+					type: "item"
+				}
+			]
+			title: "Basic Tools"
+			x: -16.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["477E2B987BF4630A"]
+			description: ["The create wrench allows you to easily rotate blocks, and it allows you to quickly pick up Create components. While the Super glue allows you to glue up create components to form moving contraptions."]
+			id: "398ED672A4DDAB45"
+			rewards: [{
+				id: "2AA80A18697E8280"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "61BADB71C32DCE63"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "59EF08DEDA7EA3D2"
+					item: {
+						Count: 1b
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "A tool you can hold..."
+			x: -16.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["398ED672A4DDAB45"]
+			id: "2504C992C531DE26"
+			rewards: [{
+				id: "10139C6B910938AE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Lets gather some materials we need! Some 8 disposable blocks and a few more..."
+			tasks: [
+				{
+					count: 8L
+					id: "344C9566A320786F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:disposable"
+						}
+					}
+					title: "Any #botania:disposable"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "592891B51797F8DC"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "Any #minecraft:logs"
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "060C1EE061297F91"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "71F710BD4E35DE54"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "0F406C31C5FA3CE9"
+					title: "A fruit tree of your choosing"
+					type: "checkmark"
+				}
+			]
+			title: "Beginner fruit farm (from trees)"
+			x: -13.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2504C992C531DE26"]
+			id: "3375179061C12AF4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3285D530C276C927"
+				table_id: 7374607077659684379L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "7ACD4BC654A3919F"
+					item: "create:chute"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "55C9E22AC5BF8766"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4CD69195A0BF9051"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:chests/wooden"
+						}
+					}
+					title: "Any #forge:chests/wooden"
+					type: "item"
+				}
+				{
+					id: "4FF15E8B678F23DD"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "16C3050077BE78CB"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "10210F99CC8A6D2B"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+			]
+			title: "Lets craft them down into our components..."
+			x: -13.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3375179061C12AF4"]
+			id: "46EAF98923D9BF7B"
+			rewards: [
+				{
+					id: "78E3C6E9E6727A4F"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 2
+					id: "5532CC6C824099C5"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "3F482D68C0686FF9"
+					item: "pamhc2foodcore:basiccheeseburgeritem"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0719DF2AF1150DED"
+				title: "Design a Functional Fruit tree"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["398ED672A4DDAB45"]
+			id: "06FFDD0E166BB9B5"
+			rewards: [{
+				id: "3C0515A2CAE86E86"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "7C52137EFAE41078"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4470954D1B32FF6E"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "40A429982E599B18"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "4E4F88149886A0CD"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "25AA53C799020A42"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "Any #minecraft:logs"
+					type: "item"
+				}
+				{
+					id: "2900AB656B4998B7"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:saplings"
+						}
+					}
+					title: "Any #minecraft:saplings"
+					type: "item"
+				}
+				{
+					id: "65F97D9FD95AFA48"
+					item: {
+						Count: 1b
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "6D2B3CF2A151D07D"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5429633FAD8FD733"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:stripped_logs"
+						}
+					}
+					title: "Any #forge:stripped_logs"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "312742CF9FA5003A"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
+			title: "Wood Farm"
+			x: -18.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["06FFDD0E166BB9B5"]
+			id: "40FA8FDF22882277"
+			rewards: [{
+				id: "5BFB0B127ECBD7F3"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Let's craft this stuff into our components and gather a few more materials..."
+			tasks: [
+				{
+					id: "030E3723798BC755"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+				{
+					id: "408FCEAB819F9EDD"
+					item: "create:cart_assembler"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "5C545B2E8FE57DD1"
+					item: "minecraft:powered_rail"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3F0A56512096B1D4"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:disposable"
+						}
+					}
+					title: "Any Non Gravity Blocks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4C0D8E85F9C1C013"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "153D8C0BD1130421"
+					item: "minecraft:minecart"
+					type: "item"
+				}
+			]
+			title: "Lets break this down..."
+			x: -18.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["40FA8FDF22882277"]
+			id: "7992C4BD366CE256"
+			rewards: [
+				{
+					count: 2
+					id: "0EF0FAC49B68B8F6"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "7947F63D717FA09C"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "2316CA8AD606F41C"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "If you want to access the wood, just look in the chest! (that's if you built it correctly!) Also, you can extend the farm to as long as you want! just add more rail!"
+			tasks: [
+				{
+					id: "32149EBE55735E1E"
+					title: "Assemble a Minecart Contraption that automatically cuts Wood."
+					type: "checkmark"
+				}
+				{
+					id: "5DFC86CB3343C37D"
+					title: "You can use the create 'ponder' feature to help you think."
+					type: "checkmark"
+				}
+				{
+					id: "4179FCD0E1625C71"
+					title: "Remember to set the contraption on 'lock rotation' before sending it off!"
+					type: "checkmark"
+				}
+			]
+			x: -18.5d
+			y: -7.0d
+		}
+	]
+	title: "Create"
+}
